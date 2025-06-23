@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",                 // ES5 for maximum compatibility; ES2017 is still very portable
+    "module": "CommonJS",               // Universal compatibility (especially for Node.js)
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "sourceMap": true                   // Optional: helps with debugging
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
